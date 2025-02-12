@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="json-path">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="json-schema-validator" id="1b94c5f9-45d5-4061-929a-cb9891cc0c5b" name="Workbench">
+        <properties>
+          <property key="dataText" type="INPUT" value="kotlin.String|{&#10;  &quot;firstName&quot;: &quot;John&quot;,&#10;  &quot;lastName&quot;: &quot;Doe&quot;,&#10;  &quot;age&quot;: 21&#10;}" />
+          <property key="schemaText" type="INPUT" value="kotlin.String|{&#10;  &quot;$id&quot;: &quot;https://example.com/person.schema.json&quot;,&#10;  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,&#10;  &quot;title&quot;: &quot;Person&quot;,&#10;  &quot;type&quot;: &quot;object&quot;,&#10;  &quot;properties&quot;: {&#10;    &quot;firstName&quot;: {&#10;      &quot;type&quot;: &quot;string&quot;,&#10;      &quot;description&quot;: &quot;The person's first name.&quot;&#10;    },&#10;    &quot;lastName&quot;: {&#10;      &quot;type&quot;: &quot;string&quot;,&#10;      &quot;description&quot;: &quot;The person's last name.&quot;&#10;    },&#10;    &quot;age&quot;: {&#10;      &quot;description&quot;: &quot;Age in years which must be equal to or greater than zero.&quot;,&#10;      &quot;type&quot;: &quot;integer&quot;,&#10;      &quot;minimum&quot;: 0&#10;    }&#10;  }&#10;}" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="json-path" id="daae0d01-8782-4fd9-a79a-025b3e5adb10" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|{&quot;bounds&quot;: {&quot;height&quot;: 564, &quot;width&quot;: 564, &quot;x&quot;: 174, &quot;y&quot;: 740}, &quot;pitchAngle&quot;: -0.8306768536567688, &quot;rollAngle&quot;: -0.025302058085799217, &quot;yawAngle&quot;: -2.0129644870758057}&#10;" />
+          <property key="contentText" type="INPUT" value="kotlin.String|$.results[0].formatted_address" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="color-picker" id="b0b8b1c4-3798-4b88-b065-c24b6906a9a6" name="Workbench">
+        <properties>
+          <property key="selectedColor" type="INPUT" value="com.intellij.ui.JBColor|-15506252" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="json-text-escape" id="c5620b13-df78-4ba6-83d5-2d6367b256ae" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|{&quot;bounds&quot;: {&quot;height&quot;: 564, &quot;width&quot;: 564, &quot;x&quot;: 174, &quot;y&quot;: 740}, &quot;pitchAngle&quot;: -0.8306768536567688, &quot;rollAngle&quot;: -0.025302058085799217, &quot;yawAngle&quot;: -2.0129644870758057}&#10;" />
+          <property key="targetText" type="INPUT" value="kotlin.String|{\&quot;bounds\&quot;: {\&quot;height\&quot;: 564, \&quot;width\&quot;: 564, \&quot;x\&quot;: 174, \&quot;y\&quot;: 740}, \&quot;pitchAngle\&quot;: -0.8306768536567688, \&quot;rollAngle\&quot;: -0.025302058085799217, \&quot;yawAngle\&quot;: -2.0129644870758057}\n" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+    <expandedGroupNodeIds />
+  </component>
+</project>

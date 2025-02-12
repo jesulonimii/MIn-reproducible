@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Working" pattern="file[pet-world]:app//*||file[pet-world]:assets//*||file[pet-world]:commons//*||file:app.json||file:package.json||file:tailwind.config.ts" />
+</component>

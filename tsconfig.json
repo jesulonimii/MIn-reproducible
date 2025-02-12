@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@components/*": [
+        "commons/components/*"
+      ],
+      "@context": [
+        "commons/context"
+      ],
+      "@utils": [
+        "commons/utils"
+      ],
+      "@utils/*": [
+        "commons/utils/*"
+      ],
+      "@screens/*": [
+        "commons/screens/*"
+      ],
+      "@api": [
+        "commons/api"
+      ],
+      "@api/*": [
+        "commons/api/*"
+      ],
+      "@interfaces": [
+        "commons/interfaces"
+      ],
+      "@interfaces/*": [
+        "commons/interfaces/*"
+      ],
+      "@commons/*": [
+        "commons/*"
+      ],
+      "@components": [
+        "commons/components"
+      ],
+      "@app/*": [
+        "app/*"
+      ],
+      "@hooks": [
+        "commons/hooks"
+      ],
+      "@services/*": [
+        "commons/services/*"
+      ],
+      "@providers/*": [
+        "commons/providers/*"
+      ],
+      "@/*": [
+        "/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx",
+    "./commons/global.d.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "extends": "expo/tsconfig.base"
+}
